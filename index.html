@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Developer website for Aakash Sai Raj and Viscon Studios. Building privacy-first mobile products with practical intelligence."
+    />
+    <title>Aakash Sai Raj | Viscon Studios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="#home" class="brand">
+          <img
+            src="visconStudiosLogo.png"
+            alt="Viscon Studios logo"
+            class="brand-logo"
+          />
+          <span>Viscon Studios</span>
+        </a>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="#approach">Approach</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero reveal">
+          <p class="eyebrow">Developer Website</p>
+          <h1>Building private, intelligent financial software for real users.</h1>
+          <p class="hero-copy">
+            I’m Aakash Sai Raj. I design and build mobile products through
+            <span>Viscon Studios</span>, focused on privacy-first architecture,
+            practical AI, and high-signal UX.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button primary"
+              href="https://github.com/AakashSaiRaj/VisconStudios"
+              target="_blank"
+              rel="noreferrer"
+              >View Studio Repo</a
+            >
+            <a class="button secondary" href="#projects">Explore Build</a>
+          </div>
+          <ul class="hero-metrics">
+            <li>
+              <span class="metric-value">01</span>
+              <span class="metric-label">Core product live in development</span>
+            </li>
+            <li>
+              <span class="metric-value">100%</span>
+              <span class="metric-label">On-device-first data strategy</span>
+            </li>
+            <li>
+              <span class="metric-value">Expo</span>
+              <span class="metric-label">React Native stack for velocity</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="projects" class="panel reveal">
+          <div class="panel-header">
+            <p class="eyebrow">Selected Project</p>
+            <h2>Rupiq: Your Personal CFO</h2>
+          </div>
+          <div class="project-card">
+            <img src="assets/rupiq-logo.png" alt="Rupiq logo" class="project-logo" />
+            <div>
+              <p>
+                Rupiq is an offline-first Android and iOS app that helps users
+                track spending, detect risk patterns, and make stronger financial
+                decisions without sending sensitive data to external servers.
+              </p>
+              <p class="status-note">
+                Rupiq is currently in alpha testing (invite-only). Public launch
+                is planned for the first week of May 2026.
+              </p>
+              <ul class="feature-list">
+                <li>Local-first SQLite data model for transactions and goals.</li>
+                <li>Rule-driven insights for overspending and savings opportunities.</li>
+                <li>Privacy controls such as app lock and encrypted storage paths.</li>
+                <li>Future-ready architecture for privacy-safe AI augmentation.</li>
+              </ul>
+              <div class="chip-row">
+                <span class="chip">Expo Router</span>
+                <span class="chip">React Native</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">SQLite</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="approach" class="panel reveal">
+          <div class="panel-header">
+            <p class="eyebrow">Engineering Approach</p>
+            <h2>How Viscon Studios builds software</h2>
+          </div>
+          <div class="approach-grid">
+            <article>
+              <h3>Privacy by Default</h3>
+              <p>
+                Core logic stays on-device first. Data export and sync are opt-in,
+                explicit, and user-controlled.
+              </p>
+            </article>
+            <article>
+              <h3>Incremental Intelligence</h3>
+              <p>
+                Start with deterministic rule engines, then introduce AI only when
+                it improves outcomes without exposing raw user data.
+              </p>
+            </article>
+            <article>
+              <h3>Fast Product Loops</h3>
+              <p>
+                Ship MVPs early, test in real usage, and iterate with measurable
+                improvements in reliability and clarity.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="roadmap" class="panel reveal">
+          <div class="panel-header">
+            <p class="eyebrow">Delivery Roadmap</p>
+            <h2>Execution sequence used for Rupiq</h2>
+          </div>
+          <ol class="timeline">
+            <li>
+              <span>Phase 0</span>
+              Setup: project foundation, navigation, local DB schema.
+            </li>
+            <li>
+              <span>Phase 1</span>
+              MVP: expense flows, categories, and early insight engine.
+            </li>
+            <li>
+              <span>Phase 2</span>
+              Usability: better dashboard, health score, local notifications.
+            </li>
+            <li>
+              <span>Phase 3+</span>
+              Goals, subscription detection, predictive advisory, optional AI.
+            </li>
+          </ol>
+        </section>
+
+        <section id="contact" class="panel contact-panel reveal">
+          <p class="eyebrow">Let’s Build</p>
+          <h2>Open to product collaborations and engineering partnerships.</h2>
+          <div class="hero-actions">
+            <a
+              class="button primary"
+              href="https://github.com/AakashSaiRaj"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub Profile</a
+            >
+            <a
+              class="button secondary"
+              href="https://github.com/AakashSaiRaj/VisconStudios/issues"
+              target="_blank"
+              rel="noreferrer"
+              >Start a Conversation</a
+            >
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span id="year"></span> Viscon Studios. Built by Aakash Sai Raj.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
